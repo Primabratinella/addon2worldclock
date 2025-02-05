@@ -1,11 +1,11 @@
 function updateTime () {
-let newYorkElement = document.querySelector("#new-york");
-let newYorkDateElement = newYorkElement.querySelector(".date");
-let newYorkTimeElement = newYorkElement.querySelector(".time");
-let newYorkTime = moment().tz("America/New_York");
+let brisbaneElement = document.querySelector("#brisbane");
+let brisbaneDateElement = brisbaneElement.querySelector(".date");
+let brisbaneTimeElement = brisbaneElement.querySelector(".time");
+let brisbaneTime = moment().tz("Australia/Brisbane");
 
-newYorkDateElement.innerHTML = newYorkTime.format("MMMM D, YYYY");
-newYorkTimeElement.innerHTML = newYorkTime.format("h:mm:ss [<small>]A[</small>]");
+brisbaneDateElement.innerHTML = brisbaneTime.format("MMMM D, YYYY");
+brisbaneTimeElement.innerHTML = brisbaneTime.format("h:mm:ss [<small>]A[</small>]");
 
 
 let manilaElement = document.querySelector("#manila");
