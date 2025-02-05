@@ -1,7 +1,60 @@
+body {
+    background-color: #f9f7f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #f5f5f6;
+    padding: 40px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    border-radius: 10px;
+    
 
+}
 h1 {
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 38px;
+
 }
+h2{
+    margin: 0 0 6px;
+    font-size: 28px;
+}
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.date {
+    opacity: 0.8;
+}
+.cities {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+.city:last-child {
+    border: none;
+}
+.time {
+    font-size: 46px;
+    font-weight: bold;
+}
+.time small {
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 36px;
+}
+
 footer {
     text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
 }
