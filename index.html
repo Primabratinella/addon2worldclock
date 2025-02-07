@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
-    
     <title>World Clock - Karen Berglund</title>
 </head>
 <body>
@@ -16,13 +15,15 @@
      </h1>
      <select id="city">
         <option value="">Select city</option>
-        <option value="">Washington, DC</option>
-        <option value="">Tokyo</option>
-        <option value="">Manila</option>
-        <option value="">London</option>
+        <option value="US/Hawaii">Hawaii</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Europe/Monaco">Monaco</option>
+        <option value="America/New_York">New York</option>
      </select>
 
-    <div class="cities" id="brisbane">
+<div id="cities">
+    <div class="city" id="brisbane">
     <div>
         <h2>Brisbane 🇺🇦</h2>
         <div class="date"></div>
@@ -30,7 +31,7 @@
         <div class="time"></div>
     </div>
     
-    <div class="cities" id="manila">
+    <div class="city" id="manila">
     <div>
         <h2>Manila 🇵🇭</h2>
         <div class="date"></div>
@@ -38,14 +39,14 @@
         <div class="time"></div>
     </div>
 
-    <div class="cities" id="london">
+    <div class="city" id="london">
     <div>
         <h2>London 🇬🇧</h2>
         <div class="date"></div>
     </div>
         <div class="time"></div>
     </div>
-  
+    </div>
 </div>
     <footer>
         This project was coded by <strong>Karen Berglund</strong> and is 
